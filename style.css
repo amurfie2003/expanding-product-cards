@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #C0C0C5;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    background-color: #0A0A0A;
+    color: #fff;
+    height: 100vh;
+    margin: 100px;
+    border-radius: 30px;
+}
+header{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* Navigation */
+#navbar{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+#navbar h2{
+    font-size: 60px;
+}
+#navbar ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+#navbar ul li:nth-child(2),
+#navbar ul li:nth-child(3){
+    margin-left: 50px;
+}
+#navbar ul #navbar__hamburger-menu{
+    fill: #fff;
+}
+/* ///////////////////////////////////// */
