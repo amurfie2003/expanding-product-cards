@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -11,7 +13,7 @@ body{
 main{
     background-color: #0A0A0A;
     color: #fff;
-    height: 100vh;
+    height: 130vh;
     margin: 100px;
     border-radius: 30px;
 }
@@ -21,28 +23,105 @@ header{
 }
 
 /* Navigation */
-#navbar{
+.navbar{
     padding: 50px;
     display: flex;
     justify-content: space-between;
     font-size: 20px;
 }
-#navbar h2{
-    font-size: 60px;
+.navbar h2{
+    font-size: 40px;
 }
-#navbar ul{
+.navbar ul{
     display: flex;
     justify-content: space-around;
     list-style: none;
     align-items: center;
 }
-#navbar ul li:nth-child(2),
-#navbar ul li:nth-child(3){
+.navbar ul li:nth-child(2),
+.navbar ul li:nth-child(3){
     margin-left: 50px;
 }
-#navbar ul #navbar__hamburger-menu{
+.navbar ul .navbar__hamburger-menu{
     fill: #fff;
-    width: 50px;
+    width: 40px;
     height: auto;
 }
 /* ///////////////////////////////////// */
+
+/* Main heading section */
+.main-heading-container{
+    max-width: 90%;
+    margin: 0px auto;
+}
+
+.main-heading-container h1{
+    max-width: 45%;
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+
+.main-heading-container .inside{
+    letter-spacing: 30px;
+    border-bottom: 2px solid #FFBC01;
+}
+
+/* ////////////////////////////////////////// */
+
+
+/* article section */
+.articles-container{
+    max-width: 90%;
+    margin: 120px auto;
+    display: flex;
+    align-items: center;
+}
+
+.articles-container p{
+    line-height: 1.8;
+}
+
+.articles-container a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #fff;
+}
+/* /////////////////////////////////////////// */
+
+
+
+
+/* Services section */
+.services-container{
+    max-width: 90%;
+    margin: 120px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services__card{
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.services__card--F2B2D7{
+    background-color:#F2B2D7;
+}
+ .services__card--D0E957{
+    background-color:#D0E957;
+}
+.services__card--FFBC01{
+    background-color:#FFBC01;
+}
+.services__card--FFF9F7{
+    background-color:#FFF9F7;
+} 
+/* /////////////////////////////////////////////////////// */
