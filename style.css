@@ -104,6 +104,9 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #0A0A0A;
+    font-size: 18px;
+    text-align: center;
 }
 .services__card{
     width: 400px;
@@ -124,4 +127,19 @@ header{
 .services__card--FFF9F7{
     background-color:#FFF9F7;
 } 
+
+.services__card__info{
+    margin: 10% auto;
+    padding: 20px;
+}
+
+.services__card__info img{
+    width: 200px;
+    height: auto;
+}
+
+.services__card__info h3{
+    margin-top: 15px;
+    margin-bottom: 15px; 
+}
 /* /////////////////////////////////////////////////////// */
