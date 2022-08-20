@@ -42,5 +42,7 @@ header{
 }
 #navbar ul #navbar__hamburger-menu{
     fill: #fff;
+    width: 50px;
+    height: auto;
 }
 /* ///////////////////////////////////// */
