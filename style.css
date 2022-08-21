@@ -49,6 +49,18 @@ header{
     width: 40px;
     height: auto;
 }
+
+/* navbar hover effects */
+.navbar ul li:hover{
+    color:#FFBC01;
+    cursor: pointer;
+}
+
+.navbar ul .navbar__hamburger-menu:hover{
+    fill: #FFBC01;
+    cursor: pointer;
+}
+
 /* ///////////////////////////////////// */
 
 /* Main heading section */
@@ -98,6 +110,12 @@ header{
     margin-top: 20px;
     padding-bottom: 5px;
     border-bottom: 2px solid #fff;
+}
+
+.articles-container a:hover{
+    color:#FFBC01;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
 }
 /* /////////////////////////////////////////// */
 
@@ -183,7 +201,6 @@ header{
 .services__card.active .services__card__info p
 {
     display: block;
-
 }
 /* ############################################ */
 
@@ -216,7 +233,7 @@ header{
 }
 
 .active{
-    flex: 3;
-    transition: flex 0.2s ease-in-out;
+    flex: 5;
+    transition: flex 1.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 /* /////////////////////////////////////////////////////// */
